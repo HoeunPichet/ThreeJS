@@ -111,6 +111,11 @@ const Viewer = () => {
         controls.enableDamping = true;
         controls.dampingFactor = 0.05;
 
+        // LIMIT zoom distance
+        controls.minDistance = 1;
+        controls.maxDistance = 30;
+
+
         // Animation Loop
         const clock = new THREE.Clock(); // Use a clock for smooth time-based animations
         const animate = () => {

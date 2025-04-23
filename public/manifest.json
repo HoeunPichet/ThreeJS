@@ -1,0 +1,9 @@
+{
+    "name": "Digital Museum",
+    "short_name": "App",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffff00",
+    "theme_color": "#000000",
+    "gcm_sender_id": "YOUR_GCM_SENDER_ID"
+}
